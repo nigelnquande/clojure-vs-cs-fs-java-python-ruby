@@ -24,10 +24,10 @@ _Note 1:_ I am currently unfamiliar with writing functional code in any of the l
 
 _Note 2:_ As some/most of these languages ignore whitespace, I *could* run all my code together on one line for each. However, this doesn't give an accurate idea of lines of code. Each statement/function call will be on its own line.
 
-For example, although `(vec (concat (subvec [1, 2, 3, 4, 5] 0, 2) (subvec [1, 2, 3, 4, 5] 3) ) )` is valid clojure, I will expand it to this:
+For example, although `(vec (concat (subvec [1, 2, 3, 4, 5] 0, 2) (subvec [1, 2, 3, 4, 5] 3) ) )` is valid Clojure, I will expand it to this:
 
 ```clojure
- (vec 
+(vec 
   (concat 
     (subvec [1, 2, 3, 4, 5] 0, 2) 
     (subvec [1, 2, 3, 4, 5] 3)
