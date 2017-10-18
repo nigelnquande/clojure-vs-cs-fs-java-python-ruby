@@ -1,4 +1,4 @@
-// Time taken: 25 minutes to write and test, of which 5 were looking at documentation
+// Time taken: 25 minutes to write and test, of which 10 were looking at documentation
 
 package clojurevs;
 
