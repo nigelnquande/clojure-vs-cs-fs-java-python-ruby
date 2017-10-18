@@ -13,7 +13,7 @@ public class MergeSlices {
 		int[] merged = new int[first.length + second.length];
 		int i = 0, offset = first.length;
 		for (i = 0; i < offset; i++) merged[i] = first[i];
-		for (i = 0; i < second.length; i++) merged[offset + i] = seconds[i];
+		for (i = 0; i < second.length; i++) merged[offset + i] = second[i];
 		
 		return merged;
 	}
