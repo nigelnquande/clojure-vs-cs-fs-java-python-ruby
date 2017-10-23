@@ -6,6 +6,7 @@ def i ():
   nums = [1, 2, 3, 4, 5]
   print nums[:2] + nums[3:]
   
+# Functional
 def is_allowed (x):
   return x > 0 and x != 3
   
