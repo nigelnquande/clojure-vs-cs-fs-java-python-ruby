@@ -7,7 +7,7 @@ def i ():
   print nums[:2] + nums[3:]
   
 def is_allowed (x):
-  return x == 3
+  return x > 0 and x != 3
   
 def f ():
   return list(filter(is_allowed, range(6)))
