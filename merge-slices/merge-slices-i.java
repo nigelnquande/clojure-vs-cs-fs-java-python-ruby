@@ -3,6 +3,8 @@
 package clojurevs;
 
 import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MergeSlices {
 
@@ -16,6 +18,17 @@ public class MergeSlices {
 		for (i = 0; i < second.length; i++) merged[offset + i] = second[i];
 		
 		return merged;
+	}
+	
+	public static List<Integer> makeMergedLists() { 
+		/* contributed by sighphyre; 
+		 * 15 mins to remember how to get Java to compile without an IDE, 5 minutes to write the code
+		 */
+		 List<Integer> nums = Arrays.asList(new Integer[]{1, 2, 3, 4, 5});
+		List<Integer> firstSet = new ArrayList<Integer>(nums.subList(0, 2));
+        	firstSet.addAll(nums.subList(3, nums.size()));
+		
+		return firstSet;
 	}
 
 	public static void main(String[] args) { // not C Style, GOK why
